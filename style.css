@@ -21,6 +21,34 @@ a {
 ul {
 	list-style: none;
 }
+@media (max-width: 767px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .logo {
+    margin: 0 auto;
+  }
+  
+  .trust-name {
+    margin-top: 10px;
+  }
+  
+  nav {
+    margin-top: 20px;
+  }
+  
+  nav ul {
+    display: block;
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 10px;
+  }
+}
 
 /* Header styles */
 header {
